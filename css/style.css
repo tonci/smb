@@ -1,0 +1,11 @@
+body{
+	background: url(../images/back.jpg) no-repeat;
+	background-size:cover;
+}
+
+#wrapAll {
+	display: block;
+	width: 25%;
+	margin:20px 45%;
+	min-width: 250px;
+}
