@@ -15,7 +15,7 @@ $email = $_POST['email'];
 // Performing SQL query
 $query = 'INSERT INTO subscribers (subscriber_email) VALUES ("'.db_encode($email).'")';
 $result = @mysql_query($query); /* or die('Query failed: ' . mysql_error());*/
-require 'lib/PHPMailerAutoload.php';
+require './lib/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
 
