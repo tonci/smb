@@ -3,6 +3,8 @@ function db_encode($s) {
     $s = stripslashes($s);
     return mysql_real_escape_string($s);
 }
+$path = "/var/www/";
+set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 // Connecting, selecting database
 // $link = mysql_connect('localhost', 'root', '123')
 $link = mysql_connect('localhost', 'user', '123')
