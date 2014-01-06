@@ -29,7 +29,7 @@ $mail->Password = 'secret';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted*/
 
 $mail->From = 'teodor.p.nikolov@gmail.com';
-//$mail->FromName = 'Tonci';
+$mail->FromName = 'SMB';
 $mail->addAddress($email);  // Add a recipient
 // $mail->addAddress('ellen@example.com');               // Name is optional
 // $mail->addReplyTo('info@example.com', 'Information');
