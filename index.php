@@ -28,7 +28,7 @@ We can make that happen! Join us today and help the science go further and furth
 				
 				<form action="subscribe.php" method="post">
 					<input type="text" name="email" placeholder="E-mail" />
-					<input type="submit" name="submit" value="Subscibe" />
+					<input type="submit" name="submit" value="Subscribe" />
 				</form>
 			</div>
 		<? else: ?>
