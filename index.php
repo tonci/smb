@@ -22,7 +22,7 @@
 				
 <p>
 Business is taking a lot from the science, but doesn't give so much in return.
-We can make that happen! Join us today and help the science go further and further.
+We can make that happen! Join us today and help the science go further and further....
 <a href="#full_story" class="fancybox">Read More...</a>
 				</p>
 				
